@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS log_ingestor_db;
+
+CREATE USER IF NOT EXISTS 'Gangothri'@'localhost' IDENTIFIED BY 'root';
+
+GRANT ALL PRIVILEGES ON *.* TO 'Gangothri'@'localhost' WITH GRANT OPTION;
+
+FLUSH PRIVILEGES;
